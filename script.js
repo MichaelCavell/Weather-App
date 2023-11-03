@@ -1,3 +1,3 @@
-let city = ''
-let key = ''
-let weatherUrl = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}`
+const city = '';
+const key = '';
+const weatherUrl = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}`;
