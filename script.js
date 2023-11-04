@@ -54,6 +54,7 @@ async function addDisplayElements() {
     weatherDisplay.appendChild(currentCityTemp);
     weatherDisplay.appendChild(tempToggle);
 
+    // eslint-disable-next-line no-use-before-define
     await fetchImage();
 
     // eslint-disable-next-line no-use-before-define
